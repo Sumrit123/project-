@@ -87,8 +87,14 @@ async function getBackgroundImg(){
     }else if(hour==0 && hour<=03){
         debugger;
         bg = "sunset11.png";
+    }else{
+        debugger;
+        bg = "sunset12.png";
     }
 
     //load the image in backgroundImg variable here
-    backgroundImg = loadImage(bg);}
+    backgroundImg = loadImage(bg);
+    console.log(backgroundImg);
+   
 
+}
